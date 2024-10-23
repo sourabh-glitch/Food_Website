@@ -1,10 +1,10 @@
-const icons = document.querySelectorAll(".section-1-icon i")
+const icons = document.querySelectorAll(".section-1-icons i")
 
 let i =1
 
 setInterval(() => {
     i++
-    const icon= document.querySelector(".section-1-icon i.change")
+    const icon= document.querySelector(".section-1-icons i.change")
 
     icon.classList.remove("change")
     
